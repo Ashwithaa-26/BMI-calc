@@ -1,0 +1,111 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 252, 237);
+    background-image: url("https://t3.ftcdn.net/jpg/03/62/99/36/240_F_362993649_rnLyX2Rq3YpTFZJWZddRKyiuTSdOc4IJ.jpg");
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    margin: 0;
+    padding: 0;
+   
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#inputs label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#result {
+    display: none;
+    margin-top: 20px;
+}
+
+#result p {
+    font-size: 18px;
+}
+
+#bmiValue {
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#bmiCategory {
+    color: #555;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#bmiDetails {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#bmiDetails h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#bmiDetails ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
